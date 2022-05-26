@@ -1,0 +1,26 @@
+{
+  "name": "livecoding",
+  "version": "1.0.0",
+  "description": "Fisrt express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoAntonioSanchez/ExpressApp.git"
+  },
+  "keywords": [
+    "express",
+    "app",
+    "marco",
+    "antonio",
+    "sánchez"
+  ],
+  "author": "Marco A. Sánchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoAntonioSanchez/ExpressApp/issues"
+  },
+  "homepage": "https://github.com/MarcoAntonioSanchez/ExpressApp#readme"
+}
