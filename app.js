@@ -13,7 +13,9 @@ app.get("/launchx", (req, res) => {
 
 app.get("/node", (req, res) => {
   const explorer1 = { id: 1, name: "explorer" };
-  res.send(explorer1);
+  const explorer2 = { id: 2, name: "explorer" };
+  const explorer3 = { id: 2, name: "explorer" };
+  res.send(explorer1, explorer2, explorer3);
 });
 
 app.listen(port, () => {
