@@ -6,6 +6,11 @@ app.get("/", (req, res) => {
   res.send("Hola amigo...");
 });
 
+//localhost 3000/launchx
+app.get("/launchx", (req, res) => {
+  res.send("Welcome to launchx!");
+});
+
 app.listen(port, () => {
   console.log("Server live on port: 3000");
 });
