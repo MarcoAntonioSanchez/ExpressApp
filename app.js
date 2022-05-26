@@ -11,6 +11,11 @@ app.get("/launchx", (req, res) => {
   res.send("Welcome to launchx!");
 });
 
+app.get("/node", (req, res) => {
+  const explorer1 = { id: 1, name: "explorer" };
+  res.send(explorer1);
+});
+
 app.listen(port, () => {
   console.log("Server live on port: 3000");
 });
